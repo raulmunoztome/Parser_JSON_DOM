@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class Comida {
 	@SerializedName("Descripcio")
 	private Descripcio descripcio;
+	//simple comentario
 	@SerializedName("Grup")
 	private Grup grup;
 	@SerializedName("Tipus")
