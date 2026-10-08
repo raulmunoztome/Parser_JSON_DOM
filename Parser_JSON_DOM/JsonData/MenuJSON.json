@@ -1,0 +1,56 @@
+{
+  "Menu": [
+    {
+      "Descripcio": {
+        "codi": "A01",
+        "preu": 10,
+        "text": "Macarrons"
+      },
+      "Tipus": "Plat Principal",
+      "Grup": {
+        "id": "01",
+        "Descripcio": "Aliments farinosos",
+        "Tipus": "Pasta"
+      }
+    },
+    {
+      "Descripcio": {
+        "codi": "A35",
+        "preu": 3,
+        "text": "Macedònia"
+      },
+      "Tipus": "Postre",
+      "Grup": {
+        "id": "03",
+        "Descripcio": "Origen vegetal",
+        "Tipus": "Fruita"
+      }
+    },
+    {
+      "Descripcio": {
+        "codi": "A24",
+        "preu": 6,
+        "text": "Pastís de formatge"
+      },
+      "Tipus": "Postre",
+      "Grup": {
+        "id": "04",
+        "Descripcio": "Lactis",
+        "Tipus": "Dolços"
+      }
+    },
+    {
+      "Descripcio": {
+        "codi": "A56",
+        "preu": 12,
+        "text": "Vedella amb bolets"
+      },
+      "Tipus": "Plat Principal",
+      "Grup": {
+        "id": "02",
+        "Descripcio": "Origen animal",
+        "Tipus": "Carn"
+      }
+    }
+  ]
+}
