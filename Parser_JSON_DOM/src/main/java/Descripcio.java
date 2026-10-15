@@ -26,6 +26,11 @@ public class Descripcio {
 	public void setText(String text) {
 		this.text = text;
 	}
+	@Override
+	public String toString() {
+		return "Descripcio [codi=" + codi + ", preu=" + preu + ", text=" + text + "]";
+	}
+	
 	
 	
 }

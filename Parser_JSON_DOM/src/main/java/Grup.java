@@ -25,6 +25,11 @@ public class Grup {
 	public void setTps(String tps) {
 		this.tps = tps;
 	}
+	@Override
+	public String toString() {
+		return "Grup [id=" + id + ", desc=" + desc + ", tps=" + tps + "]";
+	}
+	
 	
 	
 

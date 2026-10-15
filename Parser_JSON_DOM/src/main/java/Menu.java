@@ -14,6 +14,12 @@ public class Menu {
 	public void setComidas(List<Comida> comidas) {
 		this.comidas = comidas;
 	}
+
+	@Override
+	public String toString() {
+		return "Menu [comidas=" + comidas + "]";
+	}
+	
 	
 	
 }

@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class Comida {
 	@SerializedName("Descripcio")
 	private Descripcio descripcio;
-	//simple comentario
+
 	@SerializedName("Grup")
 	private Grup grup;
 	@SerializedName("Tipus")
@@ -29,6 +29,11 @@ public class Comida {
 	public void setTipus(String tipus) {
 		this.tipus = tipus;
 	}
+	@Override
+	public String toString() {
+		return "Comida [descripcio=" + descripcio + ", grup=" + grup + ", tipus=" + tipus + "]";
+	}
+	
 	
 	
 }
